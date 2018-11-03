@@ -1,7 +1,11 @@
 package designpattern.strategy;
 
+/**
+ * @author ^_^
+ * Strategy接口
+ */
 public interface Strategy {
 
-	public double getResult(double money);
+	abstract void algorithm();
 	
 }
